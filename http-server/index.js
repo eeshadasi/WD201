@@ -1,5 +1,7 @@
 const http=require('http');
 const fs=require('fs');
+const minimist = require('minimist');
+const args=minimist(process.argv)
 let projectContent="";
 let homeContent="";
 let registrationContent="";
@@ -42,4 +44,4 @@ http
                 break;
             }
         })
-    .listen(3000);
+    .listen(args.port);

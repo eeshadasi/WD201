@@ -1,0 +1,15 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "main": "todo-cli.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.1.6",
+    "jest": "^28.1.3"
+  }
+}
